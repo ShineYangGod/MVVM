@@ -101,6 +101,14 @@
 		68B9F9761E0A1F52003A71D4 /* MVVM */ = {
 			isa = PBXGroup;
 			children = (
+				68B9F9AA1E0A1FEB003A71D4 /* Config */,
+				68B9F9AB1E0A1FEB003A71D4 /* Model */,
+				68B9F9AC1E0A1FEB003A71D4 /* Request */,
+				68B9F9AD1E0A1FEB003A71D4 /* Resource */,
+				68B9F9AE1E0A1FEB003A71D4 /* Tools */,
+				68B9F9AF1E0A1FEB003A71D4 /* Vender */,
+				68B9F9B01E0A1FEB003A71D4 /* ViewController */,
+				68B9F9B11E0A1FEB003A71D4 /* ViewModel */,
 				68B9F97A1E0A1F52003A71D4 /* AppDelegate.h */,
 				68B9F97B1E0A1F52003A71D4 /* AppDelegate.m */,
 				68B9F97D1E0A1F52003A71D4 /* ViewController.h */,
@@ -138,6 +146,62 @@
 				68B9F99E1E0A1F53003A71D4 /* Info.plist */,
 			);
 			path = MVVMUITests;
+			sourceTree = "<group>";
+		};
+		68B9F9AA1E0A1FEB003A71D4 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		68B9F9AB1E0A1FEB003A71D4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		68B9F9AC1E0A1FEB003A71D4 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		68B9F9AD1E0A1FEB003A71D4 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		68B9F9AE1E0A1FEB003A71D4 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		68B9F9AF1E0A1FEB003A71D4 /* Vender */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Vender;
+			sourceTree = "<group>";
+		};
+		68B9F9B01E0A1FEB003A71D4 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		68B9F9B11E0A1FEB003A71D4 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -424,6 +488,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = MVVM/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = yangchen.com.MVVM;
@@ -435,6 +500,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = MVVM/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = yangchen.com.MVVM;
